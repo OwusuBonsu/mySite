@@ -2,7 +2,7 @@
   min-height: 75vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   align-content: center;
   left: 20px;
@@ -13,8 +13,11 @@
 .Pic img {
   width: 500px;
   max-width: 90%;
+  display: block;
+  margin: auto;
 }
 
 .Info h1, p{
   color: white;
+  text-align: center;
 }

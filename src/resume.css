@@ -1,0 +1,14 @@
+.react-pdf__Page { 
+    Display: flex;
+    Height: 90vh;
+    Width: 100vw; 
+    Align-Items: center;
+    Justify-Content: center;
+    margin-left: 75px;
+}
+
+Button{
+    Display: flex;
+    align-items: center;
+    justify-content: center;
+}

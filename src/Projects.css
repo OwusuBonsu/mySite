@@ -1,0 +1,21 @@
+.Projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+}
+
+.Proj1img {
+  width: 40%;
+}
+
+.Proj1Desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}

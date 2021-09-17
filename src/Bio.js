@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 
 function Bio() {
   return (
-    <Card className="card2 m-3">
+    <Card className="card2 m-3 mb-5">
       <div className="Bio">
         <div className="BioContent">
           <div className="Pic">

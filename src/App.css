@@ -16,11 +16,6 @@ body {
   background-color: rgb(26, 26, 26);
 }
 
-.Pic img {
-  width: 500px;
-  max-width: 90%;
-}
-
 .Info h1,
 p {
   color: white;
@@ -32,6 +27,7 @@ p {
   align-items: center;
   color: white;
   margin-top: 10px;
+  font-family: "Inter", sans-serif;
 }
 
 .Projects img {

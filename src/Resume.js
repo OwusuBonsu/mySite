@@ -8,7 +8,7 @@ import Card from "react-bootstrap/Card";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 function Resume() {
   return (
-    <>
+    <div className="mb-5">
       <div className="Header">
         <h1>My Resume</h1>
       </div>
@@ -23,7 +23,7 @@ function Resume() {
           </Document>
         </div>
       </Card>
-    </>
+    </div>
   );
 }
 

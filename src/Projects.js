@@ -1,6 +1,7 @@
 import React from "react";
 import PAM from "./PlaylistAnalystMockup.png";
 import TDM from "./ToDoMockup.png";
+import PBM from "./PlaybaxxMockup.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ProjectTemplate from "./ProjectTemplate";
 
@@ -11,6 +12,18 @@ function Projects() {
         <h1>My Projects</h1>
       </div>
       <div className="Projects mb-5">
+        <ProjectTemplate
+          image={PBM}
+          desc="A web app that gives users information about artists and their songs. Styled entirely using TailwindCSS. Data is pulled from Spotify, LastFM, Youtube, among others. Site is fully responsive and accomodates both mobile and desktop users."
+          link="https://playbaxx.netlify.app"
+          tags={[
+            "React",
+            "TailwindCSS",
+            "Recoil",
+            "React Hooks",
+            "RESTful APIs",
+          ]}
+        />
         <ProjectTemplate
           image={PAM}
           name="The Spotify Playlist Analyst"

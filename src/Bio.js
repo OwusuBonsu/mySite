@@ -12,11 +12,10 @@ function Bio() {
           </div>
 
           <div className="Info">
-            <h1> Owusu Bonsu's Portfolio </h1>
+            <h1> Owusu Bonsu</h1>
             <p>
-              {" "}
-              Hi 👋🏿 Owusu here. I'm an aspiring front-end web developer. This is
-              my website. Browse around to learn more about me.{" "}
+              Student at Georgia State University. <br />
+              Aspiring web developer.
             </p>
           </div>
         </div>

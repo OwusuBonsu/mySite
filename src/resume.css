@@ -5,11 +5,13 @@
 }
 
 .react-pdf__Document {
+  display: flex;
+  justify-content: center;
   height: 70% !important;
   width: 70% !important;
 }
 
-.react-pdf__Page__textContent {
+/* .react-pdf__Page__textContent {
   height: 100% !important;
   width: 100% !important;
 }
@@ -17,8 +19,7 @@
 .react-pdf__Page {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+} */
 
 .resumeIMG {
   width: 90%;

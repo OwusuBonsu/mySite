@@ -44,7 +44,7 @@ function Projects() {
           image={TDM}
           name="Public To-Do List"
           desc="To be honest... I don't know what the purpose of this is. It's a simple To-Do list that takes advantage of Firebase's Realtime Database in order to sync to-do items and their status'"
-          link="https://brave-franklin-d211ca.netlify.app/"
+          link="su-todo-firebase.netlify.app"
           tags={[
             "React",
             "Firebase",

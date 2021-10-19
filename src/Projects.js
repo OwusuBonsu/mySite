@@ -14,6 +14,7 @@ function Projects() {
       <div className="Projects mb-5">
         <ProjectTemplate
           image={PBM}
+          name="Playbaxx"
           desc="A web app that gives users information about artists and their songs. Styled entirely using TailwindCSS. Data is pulled from Spotify, LastFM, Youtube, among others. Site is fully responsive and accomodates both mobile and desktop users."
           link="https://playbaxx.netlify.app"
           tags={[

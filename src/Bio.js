@@ -13,7 +13,7 @@ function Bio({ currentPage, getCurrentPage }) {
             {" "}
             Owusu Bonsu
           </h1>
-          <p className="text-white hidden md:inline">
+          <p className="text-white hidden text-center md:inline">
             Student at Georgia State University. <br />
             Aspiring web developer.
           </p>

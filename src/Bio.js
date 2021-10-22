@@ -9,7 +9,7 @@ function Bio({ currentPage, getCurrentPage }) {
         </div>
 
         <div className="flex flex:row md:flex-col items-center">
-          <h1 className="text-white text-base align-middle my-auto md:text-4xl w-1/2">
+          <h1 className="text-white text-base align-middle my-auto md:text-4xl w-1/2 md:w-auto">
             {" "}
             Owusu Bonsu
           </h1>

@@ -9,8 +9,7 @@ function Bio({ currentPage, getCurrentPage }) {
         </div>
 
         <div className="flex flex:row md:flex-col items-center">
-          <h1 className="text-white text-base align-middle my-auto md:text-4xl w-1/2 md:w-auto">
-            {" "}
+          <h1 className="md:text-center text-white text-base align-middle my-auto md:text-4xl w-1/2 md:w-auto">
             Owusu Bonsu
           </h1>
           <p className="text-white hidden text-center md:inline">

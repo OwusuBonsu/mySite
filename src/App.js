@@ -19,7 +19,7 @@ function App() {
               value: "#0b111a",
             },
           },
-          fpsLimit: 30,
+          fpsLimit: 20,
           interactivity: {
             detectsOn: "canvas",
             events: {},
@@ -80,12 +80,12 @@ function App() {
       />
 
       <div className="w-screen h-screen flex flex-col md:flex-row md:overflow-hidden z-10">
-        <div className="w-full mx-auto fixed md:flex justify-center sidebar md:w-1/2 my-auto md:static z-20">
+        <div className="w-full mx-auto fixed md:flex justify-center sidebar md:w-1/4 my-auto md:static z-20">
           <div className="bg-black w-full md:w-3/4 rounded-3xl md:bg-opacity-40">
             <Bio currentPage={currentPage} getCurrentPage={getCurrentPage} />
           </div>
         </div>
-        <div className="content mt-10 mb-1 md:w-1/2 md:mt-16 md:mr-20 z-0 overflow-x-hidden md:overflow-hidden">
+        <div className="content mt-10 mb-1 md:w-4/6 md:flex md:flex-col md:mt-0 m md:justify-center z-0 overflow-x-hidden  md:overflow-y-scroll">
           <Content currentPage={currentPage} />
         </div>
       </div>

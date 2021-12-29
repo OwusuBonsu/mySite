@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 function Resume() {
   return (
-    <div className="mb-5">
+    <div>
       <div className="resumeCard bg-black bg-opacity-40 rounded-xl">
         <div className="pageHolder">
           <img src={img} className="resumeIMG" />

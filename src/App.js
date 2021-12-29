@@ -19,25 +19,10 @@ function App() {
               value: "#0b111a",
             },
           },
-          fpsLimit: 20,
+          fpsLimit: 60,
           interactivity: {
             detectsOn: "canvas",
             events: {},
-            modes: {
-              bubble: {
-                distance: 400,
-                duration: 2,
-                opacity: 0.8,
-                size: 40,
-              },
-              push: {
-                quantity: 4,
-              },
-              repulse: {
-                distance: 200,
-                duration: 0.4,
-              },
-            },
           },
           particles: {
             color: {
@@ -50,7 +35,7 @@ function App() {
             move: {
               direction: "none",
               enable: true,
-              outMode: "bounce",
+              outMode: "out",
               random: true,
               speed: 2,
               straight: false,
@@ -62,17 +47,17 @@ function App() {
                 enable: true,
                 value_area: 800,
               },
-              value: 80,
+              value: 2,
             },
             opacity: {
-              value: 0.5,
+              value: 0.2,
             },
             shape: {
               type: "circle",
             },
             size: {
-              random: true,
-              value: 5,
+              random: false,
+              value: 500,
             },
           },
           detectRetina: true,
@@ -85,8 +70,10 @@ function App() {
             <Bio currentPage={currentPage} getCurrentPage={getCurrentPage} />
           </div>
         </div>
-        <div className="content mt-10 mb-1 md:w-4/6 md:flex md:flex-col md:mt-0 m md:justify-center z-0 overflow-x-hidden  md:overflow-y-scroll">
-          <Content currentPage={currentPage} />
+        <div className="content mt-10 mb-1 md:w-2/3 md:flex md:flex-col md:mt-0 m md:justify-center md:items-center z-0 overflow-x-hidden  md:overflow-y-scroll">
+          <div className="md:w-9/12">
+            <Content currentPage={currentPage} />
+          </div>
         </div>
       </div>
     </Div100vh>

@@ -15,8 +15,8 @@ import { Slide } from "react-awesome-reveal";
 export default function About() {
   return (
     <Slide direction={"right"}>
-      <div className="prose bg-black bg-opacity-40 rounded-xl p-4 text-white">
-        <h1 className="text-white mb-4">Hey 👋🏿</h1>
+      <div className="bg-black bg-opacity-40 rounded-xl p-4 text-white">
+        <h1 className="text-white mb-2">Hey 👋🏿</h1>
         <p className="mb-4">
           {" "}
           My name is Owusu Bonsu, and this is my portfolio. <br />I am a web
@@ -27,7 +27,7 @@ export default function About() {
           programming.
         </p>
         <h1>Tech I Know</h1>
-        <div className="flex flex-row flex-wrap justify-center gap-y-2">
+        <div className="flex flex-row flex-wrap justify-center gap-y-2 mb-4">
           <TechIcon logo={htmlIcon} name="HTML5" />
           <TechIcon logo={cssIcon} name="CSS3" />
           <TechIcon logo={jsIcon} name="JavaScript" />

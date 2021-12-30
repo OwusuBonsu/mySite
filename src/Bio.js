@@ -2,7 +2,7 @@ import logo from "./media/Me.webp";
 
 function Bio({ currentPage, getCurrentPage }) {
   return (
-    <div className="m-3 rounded-2xl">
+    <div className="prose m-3 rounded-2xl">
       <div className="">
         <div className="hidden md:inline max-w-xs md:max-w-md">
           <img src={logo} className="Me" alt="logo" />

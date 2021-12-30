@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 
 export default function ProjectTemplate({ image, name, desc, link, tags }) {
   return (
-    <div className="grid grid-cols-3 bg-black bg-opacity-40 my-2 rounded-3xl p-2">
+    <div className="prose grid grid-cols-3 bg-black bg-opacity-40 my-2 rounded-3xl p-2">
       <div className="ProjImg m-auto col-span-1 row-span-3">
         <img src={image} />
       </div>

@@ -2,12 +2,17 @@ import { useEffect } from "react";
 import Projects from "./Projects";
 import Resume from "./Resume";
 import Pages from "./Pages";
+import About from "./About";
 import { Fade, Slide } from "react-awesome-reveal";
 
 export default function Content({ currentPage }) {
   useEffect(() => {
     console.log(currentPage);
   }, [currentPage]);
+
+  if (currentPage === "About") {
+    return <About />;
+  }
 
   if (currentPage === "Projects") {
     return <Projects />;

@@ -1,7 +1,7 @@
 import React from "react";
 import { Slide } from "react-awesome-reveal";
-import GHLogo from "./media/git-mark.png";
-import LILogo from "./media/linked-mini.png";
+import GHLogo from "./media/git-mark.webp";
+import LILogo from "./media/linked-mini.webp";
 
 export default function Pages() {
   return (

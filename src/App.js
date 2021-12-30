@@ -6,7 +6,7 @@ import Particles from "react-tsparticles";
 import Div100vh from "react-div-100vh";
 
 function App() {
-  const [currentPage, getCurrentPage] = useState("Projects");
+  const [currentPage, getCurrentPage] = useState("About");
 
   return (
     <Div100vh>

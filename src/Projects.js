@@ -1,7 +1,7 @@
 import React from "react";
-import PAM from "./media/PlaylistAnalystMockup.png";
-import TDM from "./media/ToDoMockup.png";
-import PBM from "./media/PlaybaxxMockup.png";
+import PAM from "./media/PlaylistAnalystMockup.webp";
+import TDM from "./media/ToDoMockup.webp";
+import PBM from "./media/PlaybaxxMockup.webp";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ProjectTemplate from "./ProjectTemplate";
 import { Slide } from "react-awesome-reveal";
@@ -35,7 +35,7 @@ function Projects() {
       <ProjectTemplate
         image={TDM}
         name="Public To-Do List"
-        desc="To be honest... I don't know what the purpose of this is. It's a simple To-Do list that takes advantage of Firebase's Realtime Database in order to sync to-do items and their status'"
+        desc="A simple To-Do list that takes advantage of Firebase's Realtime Database in order to sync to-do items and their completion status's."
         link="https://su-todo-firebase.netlify.app"
         tags={[
           "React",

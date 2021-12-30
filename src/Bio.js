@@ -1,4 +1,4 @@
-import logo from "./media/Me.png";
+import logo from "./media/Me.webp";
 
 function Bio({ currentPage, getCurrentPage }) {
   return (
@@ -17,9 +17,17 @@ function Bio({ currentPage, getCurrentPage }) {
             Georgia State University Alumni.
           </p>
           <button
+            onClick={() => getCurrentPage("About")}
+            className={`mx-2 ${
+              currentPage === "About" ? "text-gray-400" : "text-white"
+            }`}
+          >
+            About
+          </button>{" "}
+          <button
             onClick={() => getCurrentPage("Projects")}
             className={`mx-2 ${
-              currentPage === "Projects" ? "text-green-900" : "text-white"
+              currentPage === "Projects" ? "text-gray-400" : "text-white"
             }`}
           >
             Projects
@@ -27,7 +35,7 @@ function Bio({ currentPage, getCurrentPage }) {
           <button
             onClick={() => getCurrentPage("Resume")}
             className={`mx-2 ${
-              currentPage === "Resume" ? "text-green-900" : "text-white"
+              currentPage === "Resume" ? "text-gray-400" : "text-white"
             }`}
           >
             Resume
@@ -35,7 +43,7 @@ function Bio({ currentPage, getCurrentPage }) {
           <button
             onClick={() => getCurrentPage("Pages")}
             className={`mx-2 ${
-              currentPage === "Pages" ? "text-green-900" : "text-white"
+              currentPage === "Pages" ? "text-gray-400" : "text-white"
             }`}
           >
             Pages

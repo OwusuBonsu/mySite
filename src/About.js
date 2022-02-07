@@ -27,7 +27,7 @@ export default function About() {
           programming.
         </p>
         <h1>Tech I Know</h1>
-        <div className="flex flex-row flex-wrap justify-center gap-y-2 mb-4">
+        <div className="flex flex-row flex-wrap justify-center gap-x-6 md:gap-x-2 gap-y-2 mb-4">
           <TechIcon logo={htmlIcon} name="HTML5" />
           <TechIcon logo={cssIcon} name="CSS3" />
           <TechIcon logo={jsIcon} name="JavaScript" />

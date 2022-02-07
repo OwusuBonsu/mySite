@@ -9,7 +9,7 @@ function App() {
   const [currentPage, getCurrentPage] = useState("About");
 
   return (
-    <Div100vh>
+    <div>
       <Particles
         canvasClassName="back"
         id="tsparticles"
@@ -64,19 +64,20 @@ function App() {
         }}
       />
 
-      <div className="w-screen h-screen flex flex-col md:flex-row md:overflow-hidden z-10">
-        <div className="w-full mx-auto fixed md:flex justify-center sidebar md:w-1/4 my-auto md:static z-20">
-          <div className="bg-black w-full md:w-3/4 rounded-3xl md:bg-opacity-40">
+      <div className="w-screen h-screen block md:flex flex-col md:flex-row md:overflow-hidden z-10">
+        <div className="w-full mx-auto md:flex justify-center sidebar md:w-1/4 my-auto md:static z-20">
+          <div className="bg-black bg-opacity-40 w-full md:w-3/4 rounded-3xl ">
             <Bio currentPage={currentPage} getCurrentPage={getCurrentPage} />
           </div>
         </div>
-        <div className="content mt-10 mb-1 md:w-2/3 md:flex md:flex-col md:mt-0 m md:justify-center md:items-center z-0 overflow-x-hidden  md:overflow-y-scroll">
+
+        <div className="content mt-3 mb-1 md:w-2/3 md:flex md:flex-col md:mt-0 m md:justify-center md:items-center z-0 overflow-x-hidden  md:overflow-y-hidden">
           <div className="md:w-9/12">
             <Content currentPage={currentPage} />
           </div>
         </div>
       </div>
-    </Div100vh>
+    </div>
   );
 }
 

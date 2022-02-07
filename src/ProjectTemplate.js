@@ -1,7 +1,14 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
-export default function ProjectTemplate({ image, name, desc, link, tags }) {
+export default function ProjectTemplate({
+  image,
+  name,
+  desc,
+  link,
+  tags,
+  github,
+}) {
   return (
     <div className="prose grid grid-cols-3 bg-black bg-opacity-40 my-2 rounded-3xl p-2">
       <div className="ProjImg m-auto col-span-1 row-span-3">
@@ -23,8 +30,11 @@ export default function ProjectTemplate({ image, name, desc, link, tags }) {
         })}
       </div>
       <div className="GoButton text-center m-auto">
-        <Button variant="dark" href={link}>
+        <Button variant="dark" href={link} className="mx-2">
           Go
+        </Button>
+        <Button variant="dark" href={github} className="mx-2">
+          GitHub
         </Button>
       </div>
     </div>

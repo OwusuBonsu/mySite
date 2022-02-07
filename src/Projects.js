@@ -8,13 +8,14 @@ import { Slide } from "react-awesome-reveal";
 
 function Projects() {
   return (
-    <Slide cascade={true} direction={"right"} fraction={0.2} triggerOnce>
+    <Slide cascade={true} direction={"right"} fraction={0.1} triggerOnce>
       <ProjectTemplate
         image={PBM}
         name="Playbaxx"
         desc="A web app that gives users information about artists and their songs. Styled entirely using TailwindCSS. Data is pulled from Spotify, LastFM, Youtube, among others. Site is fully responsive and accomodates both mobile and desktop users."
         link="https://playbaxx.netlify.app"
         tags={["React", "TailwindCSS", "Recoil", "React Hooks", "RESTful APIs"]}
+        github="https://github.com/OwusuBonsu/tuneflix"
       />
       <ProjectTemplate
         image={PAM}
@@ -31,6 +32,7 @@ function Projects() {
           "React Hooks",
           "Nivo",
         ]}
+        github="https://github.com/OwusuBonsu/thePlaylistAnalystSpotify"
       />
       <ProjectTemplate
         image={TDM}
@@ -44,6 +46,7 @@ function Projects() {
           "React Hooks",
           "Realtime Updates",
         ]}
+        github="https://github.com/OwusuBonsu/onlinetodo"
       />
     </Slide>
   );
